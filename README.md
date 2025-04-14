@@ -7,16 +7,16 @@ This project was developed for the Solvei8 AI/ML Internship. It analyzes hotel b
 ---
 
 ## Project Structure
- # LLM_Booking_Analyst/
- # ├──  data.py # Cleans and processes raw data 
- # ├── analytics.py # Creates visual plots and summaries 
- # ├── rag_qa.py # Builds vector index and answers questions 
- # ├── api.py # FastAPI server with /ask and /analytics 
- # ├── main.py # Runs the entire pipeline end-to-end 
- # ├── requirements.txt # Python dependencies 
- # ├── query_logs.csv # Logged queries and response times 
- # ├── readme.md # Project documentation 
- # └── plots/ # Visual output files
+ ## LLM_Booking_Analyst/
+ ### ├──  data.py # Cleans and processes raw data 
+ ### ├── analytics.py # Creates visual plots and summaries 
+ ### ├── rag_qa.py # Builds vector index and answers questions 
+ ### ├── api.py # FastAPI server with /ask and /analytics 
+ ### ├── main.py # Runs the entire pipeline end-to-end 
+ ### ├── requirements.txt # Python dependencies 
+ ### ├── query_logs.csv # Logged queries and response times 
+ ### ├── readme.md # Project documentation 
+ ### └── plots/ # Visual output files
 
 
 ---
