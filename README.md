@@ -7,16 +7,16 @@ This project was developed for the Solvei8 AI/ML Internship. It analyzes hotel b
 ---
 
 ## Project Structure
-LLM_Booking_Analyst/
- ├── data.py # Cleans and processes raw data 
- ├── analytics.py # Creates visual plots and summaries 
- ├── rag_qa.py # Builds vector index and answers questions 
- ├── api.py # FastAPI server with /ask and /analytics 
- ├── main.py # Runs the entire pipeline end-to-end 
- ├── requirements.txt # Python dependencies 
- ├── query_logs.csv # Logged queries and response times 
- ├── readme.md # Project documentation 
- └── plots/ # Visual output files
+ # LLM_Booking_Analyst/
+ # ├──  data.py # Cleans and processes raw data 
+ # ├── analytics.py # Creates visual plots and summaries 
+ # ├── rag_qa.py # Builds vector index and answers questions 
+ # ├── api.py # FastAPI server with /ask and /analytics 
+ # ├── main.py # Runs the entire pipeline end-to-end 
+ # ├── requirements.txt # Python dependencies 
+ # ├── query_logs.csv # Logged queries and response times 
+ # ├── readme.md # Project documentation 
+ # └── plots/ # Visual output files
 
 
 ---
@@ -25,7 +25,7 @@ LLM_Booking_Analyst/
 
 1. Install Python 3.10
 2. Create and activate environment:
-```bash
+
 conda create -n llm python=3.10 -y
 conda activate llm
 pip install -r requirements.txt
@@ -43,14 +43,14 @@ POST /ask → Ask questions about the dataset
 
 GET /analytics → View booking stats and plot file paths
 
-#Output
+# Output
 plots/: Contains visual PNGs
 
 query_logs.csv: Stores queries and LLM response time
 
 Swagger UI: http://127.0.0.1:8000/docs
 
-#Example Questions
+# Example Questions
 
 Which country had the most bookings?
 
